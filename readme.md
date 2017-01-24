@@ -1,5 +1,5 @@
-#buckowski.js
-Buckowski allows you to embed your stylesheets directly into your javascript code.
+#bukowski.js
+Bukowski allows you to embed your stylesheets directly into your javascript code.
 Just create a new class like in the example below. Bukowski will automagically create a unique classname and add it to your document, because to do a dull thing with style is preferable to doing a dangerous thing without it.
 
 ```javascript
