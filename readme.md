@@ -22,4 +22,4 @@ document.getElementById("content").appendChild(newDiv);
 ```
 
 ## Mithril
-I like to use bukowsk to stylize my (mithril)[https://github.com/lhorie/mithril] components.
+I like to use bukowsky to stylize my (mithril)[https://github.com/lhorie/mithril] components.
