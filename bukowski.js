@@ -18,10 +18,20 @@ var b = (function(){
 			style.sheet.insertRule(name+"{"+rules+"}",0);
 	};
 
-	var cl = function(rulesobject){
+
+	var cl = function(rulesobject, conditionals){
+		//create class
 		uuidCounter++;
 		var uuid = "stylizeclass"+uuidCounter;
 		set("."+uuid, rulesobject);
+
+		//create optional conditionals
+		if(conditionals){
+			for(var i in conditionals){
+				set("."+uuid+i, conditionals[i]);
+			}
+		}
+
 		return " "+uuid+" ";
 	};
 
